@@ -47,18 +47,19 @@
 	-Both: Can execute without activation by using the binary file of termgraph by
 	       using an absolute path. It will fail if executed on other machine (portability issue).
 			  
-
+---
 
 ### Flow:
 
-#### Notes: 
+##### Notes: 
 		- The shell script 'pies_bars.sh' only contains the command to draw the graph.
 		- The data file should be the same as the data on the example given.
 		- The color of the graph should be different from the given example.
 		- Only 'pies_bars.sh', data file and the virtual environment should be submitted.
 		- The purpose of pies_bars.sh isn’t to execute the graph immediately (since the venv activation is excluded), but rather to record the exact command you’d run when inside the venv.
 
-1. Set up:
+
+1. **Set up**:
 	- Copy the virtual environment folder from previous exercise.
 		- command: 'cp ../ex00/<env_name> .'
 		           (assuming your current directory is ex01)
@@ -67,7 +68,8 @@
 		- command: 'ls'
 					it shows the list of file or folder inside the current directory.
 
-2. Activate the virtual environment:
+
+2. **Activate the virtual environment**:
 	- Activate:
 		- command: 'source <env_name>/bin/activate'
 	
@@ -76,7 +78,8 @@
 			-active: if it show a path.
 			-notactive: if the terminal is empty.
 
-3. Install 'termgrap':
+
+3. **Install 'termgrap'**:
 	- Install using pip/pip3:
 		- command: 'pip install termgraph'
 		           or 'pip3 install termgraph'
@@ -85,7 +88,8 @@
 		- command: 'which termgraph'
 		  it will show the absolutepath of termgraph installed in your virtual environment.
 
-4. Create a data file:
+
+4. **Create a data file**:
 	- Create data file:
 		- command: 'code <filename>.dat' <- Vscode.
 	      You can use your prefered editor.
@@ -102,7 +106,8 @@
 		```
 	- Save it
 
-5. Draw the graph:
+
+5. **Draw the graph**:
 	- Draw the graph using termgraph and the datafile with colors.
 		- command:
 		```shell
@@ -113,7 +118,8 @@
 	- Visually verify if the graph is the same as the given example except the color
 	- If not there is a problem with the data file.
 
-6. Deactivate the current environment:
+
+6. **Deactivate the current environment**:
 	- Deactivate:
 		- command: 'deactivate'
 
@@ -122,7 +128,8 @@
 			-active: if it show a path.
 			-notactive: if the terminal is empty.
 
-7. Create 'pies_bar.sh' shell script:
+
+7. **Create 'pies_bar.sh' shell script**:
 	- pies_bar.sh
 	```bash
 	#!/bin/bash
@@ -133,7 +140,8 @@
 	- add execute permission on 'pies_bar.sh'
 		- command: 'chmod u+x pies_bar.sh'
 
-8. Submission:
+
+8. **Submission**:
 	- Submit 'pies_bar.sh' shell script, data file and the folder of the virtual environment.
 
 
