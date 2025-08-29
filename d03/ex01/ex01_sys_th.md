@@ -51,7 +51,7 @@
 
 Flow:
 
-Notes:
+Notes: 
 	- The shell script 'pies_bars.sh' only contains the command to draw the graph.
 	- The data file should be the same as the data on the example given.
 	- The color of the graph should be different from the given example.
