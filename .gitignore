@@ -150,6 +150,8 @@ venv.bak/
 !ex00/tuligma/**
 !ex01/tuligma/
 !ex01/tuligma/**
+!ex01/tuligma/lib/
+!ex01/tuligma/lib/**
 
 # Spyder project settings
 .spyderproject
