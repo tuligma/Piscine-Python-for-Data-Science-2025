@@ -146,12 +146,12 @@ env.bak/
 venv.bak/
 
 #except env
-!ex00/tuligma/
-!ex00/tuligma/**
-!ex01/tuligma/
-!ex01/tuligma/**
-!ex01/tuligma/lib/
-!ex01/tuligma/lib/**
+!d03/ex00/tuligma/
+!d03/ex00/tuligma/**
+!d03/ex01/tuligma/
+!d03/ex01/tuligma/**
+!d03/ex01/tuligma/lib/
+!d03/ex01/tuligma/lib/**
 
 # Spyder project settings
 .spyderproject
