@@ -49,14 +49,14 @@
 			  
 
 
-Flow:
+### Flow:
 
-Notes: 
-	- The shell script 'pies_bars.sh' only contains the command to draw the graph.
-	- The data file should be the same as the data on the example given.
-	- The color of the graph should be different from the given example.
-	- Only 'pies_bars.sh', data file and the virtual environment should be submitted.
-	- The purpose of pies_bars.sh isn’t to execute the graph immediately (since the venv activation is excluded), but rather to record the exact command you’d run when inside the venv.
+####Notes: 
+		- The shell script 'pies_bars.sh' only contains the command to draw the graph.
+		- The data file should be the same as the data on the example given.
+		- The color of the graph should be different from the given example.
+		- Only 'pies_bars.sh', data file and the virtual environment should be submitted.
+		- The purpose of pies_bars.sh isn’t to execute the graph immediately (since the venv activation is excluded), but rather to record the exact command you’d run when inside the venv.
 
 1. Set up:
 	- Copy the virtual environment folder from previous exercise.
