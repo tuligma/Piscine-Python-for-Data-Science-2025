@@ -12,11 +12,9 @@
 ### System Thinking:
 
 #### Purpose: What is the system trying to achieve?
-	- Install 'termgraph' as the first package,
-	  on the previously created virtual environment.
+	- Install 'termgraph' as the first package, on virtual environment, previously created.
 	- Recreate the example visualization exactly.
-	- Create a shell script 'pies_bars.sh' that contains
-	  only the part of making the graph without activation
+	- Create a shell script 'pies_bars.sh' that contains only the part of making the graph without activation
 
 #### Elements: What are the parts that make up  the system?
 	- Virtual environment
@@ -26,9 +24,8 @@
 
 #### Interconnections: How do elements interact with each other?
 	- Use the data file that will be drawned using termgraph
-	- the command used on drawing the graph using the data file 
-	  will be put to the 'pies_bar.sh'
-		- the command used for drawing the graph using the data file 
+	- the command used on drawing the graph using the data file will be put to the 'pies_bar.sh'
+	- the command used for drawing the graph using the data file 
 			will be put in 'pies_bars.sh'
 
 #### Inputs/Outputs: What goes in, and what comes out?
@@ -37,14 +34,11 @@
 	-Input: Create a data file that contains the data to be drawn.
 	-Input: Draw the graph using the command 'termgraph <datafile> --color {color,color}' from the terminal
 	-Output: It will show the graph on the terminal
-	-Input: Create a shell script name 'pies_bar.sh' and put the command used to draw the graph
 	-Input: Create a shell script named 'pies_bars.sh' and put the command used to draw the graph
 	-Input: Deactivate the environment.
 
 #### Feedback/Adaptation: How does the system respond to failure or success?
-	-Success: Prints the graph, if the environment is active,
-		  and the shell script 'pies_bars.sh' is executed
-	-Failure: If 'termgraph' is not installed and activated.
+	-Success: Prints the graph, if the environment is active, and the shell script 'pies_bars.sh' is executed
 	-Failure: If 'termgraph' is not installed and activated.
 		Data file problem:
 			- if the file is empty.
