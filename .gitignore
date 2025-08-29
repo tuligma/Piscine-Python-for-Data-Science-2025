@@ -135,6 +135,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+
 .env
 .envrc
 .venv
@@ -143,6 +144,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+#except env
+!ex00/tuligma/
+!ex00/tuligma/**
+!ex01/tuligma/
+!ex01/tuligma/**
 
 # Spyder project settings
 .spyderproject
